@@ -1,4 +1,2 @@
-# frozen_string_literal: true
-
-class Product
+class Product < ApplicationRecord
 end
