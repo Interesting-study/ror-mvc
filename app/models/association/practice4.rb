@@ -19,7 +19,7 @@ end
 class Comment
   belongs_to :member
   has_many :posts, through: :post_comments
-  has_many  :post_comments
+  has_many :post_comments
 end
 
 class PostComment
